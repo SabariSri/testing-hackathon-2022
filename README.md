@@ -1,4 +1,4 @@
-# Bug Squasher Framework
+# Testing Hackathon 2022 - Framework
 
 This framework have capabilities of running test on 3 different platforms which are Desktop web, Mobile web & Rest APIs. Follow the below procedure to setup and start off with developing mix of testcases.
 
