@@ -5,11 +5,15 @@ import java.awt.Toolkit;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
 import java.io.File;
+import java.nio.file.Paths;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+import java.util.Map;
 
 import org.openqa.selenium.WebDriver;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class CommonUtility {
 	public static String getDateTime() {
@@ -44,7 +48,22 @@ public class CommonUtility {
 		}
 	}
 
-	public static String moveFile(File sourceFolder, String sourceFile, File destinationFolder) throws InterruptedException {
+	public static ArrayList<String> readJsonValue(String jsonPath) {
+		ArrayList<String> jsonValueList = new ArrayList<>();
+		try {
+			ObjectMapper mapper = new ObjectMapper();
+			Map<?, ?> map = mapper.readValue(Paths.get(jsonPath).toFile(), Map.class);
+			for (Map.Entry<?, ?> entry : map.entrySet()) {
+				jsonValueList.add(entry.getValue().toString());
+			}
+		} catch (Exception ex) {
+			ex.printStackTrace();
+		}
+		return jsonValueList;
+	}
+
+	public static String moveFile(File sourceFolder, String sourceFile, File destinationFolder)
+			throws InterruptedException {
 		File movedFile = null;
 		if (sourceFolder.exists() && sourceFolder.isDirectory()) {
 			// Get list of the files and iterate over them

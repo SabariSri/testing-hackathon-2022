@@ -10,7 +10,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 import com.ui.basepage.AbstractPage;
-import com.utils.CommonUtility;
 
 public class GoodsAndServiceTaxPage extends AbstractPage {
 	private static final String SCREENSHOTS_DIRECTORY = System.getProperty("user.dir")

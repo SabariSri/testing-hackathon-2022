@@ -42,6 +42,7 @@ public class AbstractSetup {
 			+ browserStackServer;
 	public static String screenshotName = "TestCapture" + CommonUtility.getDateTime() + ".jpg";
 	public static final String FORM_REC_OUTPUT = System.getProperty("user.dir")+"\\FormRecognizerOutput\\".replaceAll("//",File.separator);
+	public static final String APP_EXP_JSON_FOLDER = System.getProperty("user.dir")+"\\ApplicationFormJsons\\".replaceAll("//",File.separator);
 
 	@BeforeSuite
 	@Parameters({ "browser" })
