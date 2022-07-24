@@ -1,0 +1,2528 @@
+{
+	"status": "succeeded",
+	"createdDateTime": "2022-07-24T11:05:54Z",
+	"lastUpdatedDateTime": "2022-07-24T11:05:58Z",
+	"analyzeResult": {
+		"apiVersion": "2022-06-30-preview",
+		"modelId": "prebuilt-document",
+		"stringIndexType": "textElements",
+		"content": "New Registration\nTemporary Reference Number (TRN)\nI am a * Select\nV\nState / UT ·\nSelect\nV\nDistrict\nSelect\nLegal Name of the Business (As mentioned in PAN)\nEnter Legal Name of Business\nPermanent Account Number (PAN) *\nEnter Permanent Account Number (PAN)\nEmail Address.\nEnter Email Address\n4 OTP will be sent to this Email Address\nMobile Number +91 Enter Mobile Number\ni Separate OTP will be sent to this mobile number :selected: :unselected: :selected: :selected:",
+		"pages": [
+			{
+				"pageNumber": 1,
+				"angle": 0.06693419814109802,
+				"width": 1920,
+				"height": 858,
+				"unit": "pixel",
+				"words": [
+					{
+						"content": "New",
+						"polygon": [
+							593,
+							3,
+							632,
+							3,
+							632,
+							26,
+							593,
+							26
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 0,
+							"length": 3
+						}
+					},
+					{
+						"content": "Registration",
+						"polygon": [
+							644,
+							3,
+							770,
+							4,
+							770,
+							27,
+							644,
+							26
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 4,
+							"length": 12
+						}
+					},
+					{
+						"content": "Temporary",
+						"polygon": [
+							839,
+							4,
+							952,
+							4,
+							951,
+							28,
+							838,
+							27
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 17,
+							"length": 9
+						}
+					},
+					{
+						"content": "Reference",
+						"polygon": [
+							957,
+							4,
+							1065,
+							4,
+							1065,
+							28,
+							956,
+							28
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 27,
+							"length": 9
+						}
+					},
+					{
+						"content": "Number",
+						"polygon": [
+							1070,
+							4,
+							1156,
+							4,
+							1157,
+							27,
+							1070,
+							28
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 37,
+							"length": 6
+						}
+					},
+					{
+						"content": "(TRN)",
+						"polygon": [
+							1161,
+							4,
+							1226,
+							3,
+							1227,
+							27,
+							1161,
+							27
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 44,
+							"length": 5
+						}
+					},
+					{
+						"content": "I",
+						"polygon": [
+							541,
+							58,
+							552,
+							58,
+							552,
+							79,
+							541,
+							79
+						],
+						"confidence": 0.991,
+						"span": {
+							"offset": 50,
+							"length": 1
+						}
+					},
+					{
+						"content": "am",
+						"polygon": [
+							556,
+							59,
+							580,
+							60,
+							580,
+							79,
+							556,
+							79
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 52,
+							"length": 2
+						}
+					},
+					{
+						"content": "a",
+						"polygon": [
+							598,
+							59,
+							610,
+							59,
+							610,
+							79,
+							598,
+							79
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 55,
+							"length": 1
+						}
+					},
+					{
+						"content": "*",
+						"polygon": [
+							614,
+							59,
+							624,
+							59,
+							624,
+							79,
+							614,
+							79
+						],
+						"confidence": 0.002,
+						"span": {
+							"offset": 57,
+							"length": 1
+						}
+					},
+					{
+						"content": "Select",
+						"polygon": [
+							567,
+							106,
+							633,
+							106,
+							633,
+							127,
+							566,
+							126
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 59,
+							"length": 6
+						}
+					},
+					{
+						"content": "V",
+						"polygon": [
+							1340,
+							109,
+							1346,
+							110,
+							1345,
+							121,
+							1339,
+							120
+						],
+						"confidence": 0.604,
+						"span": {
+							"offset": 66,
+							"length": 1
+						}
+					},
+					{
+						"content": "State",
+						"polygon": [
+							542,
+							161,
+							596,
+							162,
+							596,
+							183,
+							542,
+							183
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 68,
+							"length": 5
+						}
+					},
+					{
+						"content": "/",
+						"polygon": [
+							603,
+							162,
+							616,
+							162,
+							615,
+							183,
+							603,
+							183
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 74,
+							"length": 1
+						}
+					},
+					{
+						"content": "UT",
+						"polygon": [
+							620,
+							162,
+							649,
+							162,
+							648,
+							182,
+							620,
+							183
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 76,
+							"length": 2
+						}
+					},
+					{
+						"content": "·",
+						"polygon": [
+							653,
+							161,
+							665,
+							161,
+							664,
+							182,
+							653,
+							182
+						],
+						"confidence": 0.037,
+						"span": {
+							"offset": 79,
+							"length": 1
+						}
+					},
+					{
+						"content": "Select",
+						"polygon": [
+							567,
+							210,
+							633,
+							211,
+							633,
+							231,
+							566,
+							231
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 81,
+							"length": 6
+						}
+					},
+					{
+						"content": "V",
+						"polygon": [
+							1340,
+							213,
+							1346,
+							214,
+							1345,
+							225,
+							1339,
+							224
+						],
+						"confidence": 0.742,
+						"span": {
+							"offset": 88,
+							"length": 1
+						}
+					},
+					{
+						"content": "District",
+						"polygon": [
+							542,
+							266,
+							619,
+							266,
+							619,
+							287,
+							543,
+							286
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 90,
+							"length": 8
+						}
+					},
+					{
+						"content": "Select",
+						"polygon": [
+							568,
+							313,
+							633,
+							314,
+							634,
+							335,
+							568,
+							334
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 99,
+							"length": 6
+						}
+					},
+					{
+						"content": "Legal",
+						"polygon": [
+							542,
+							369,
+							597,
+							368,
+							596,
+							392,
+							542,
+							392
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 106,
+							"length": 5
+						}
+					},
+					{
+						"content": "Name",
+						"polygon": [
+							601,
+							368,
+							665,
+							368,
+							664,
+							392,
+							601,
+							392
+						],
+						"confidence": 0.988,
+						"span": {
+							"offset": 112,
+							"length": 4
+						}
+					},
+					{
+						"content": "of",
+						"polygon": [
+							671,
+							368,
+							694,
+							368,
+							693,
+							392,
+							671,
+							392
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 117,
+							"length": 2
+						}
+					},
+					{
+						"content": "the",
+						"polygon": [
+							698,
+							368,
+							734,
+							368,
+							733,
+							392,
+							698,
+							392
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 120,
+							"length": 3
+						}
+					},
+					{
+						"content": "Business",
+						"polygon": [
+							740,
+							368,
+							835,
+							368,
+							834,
+							392,
+							739,
+							392
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 124,
+							"length": 8
+						}
+					},
+					{
+						"content": "(As",
+						"polygon": [
+							841,
+							368,
+							872,
+							369,
+							872,
+							391,
+							840,
+							392
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 133,
+							"length": 3
+						}
+					},
+					{
+						"content": "mentioned",
+						"polygon": [
+							877,
+							369,
+							974,
+							370,
+							973,
+							391,
+							876,
+							391
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 137,
+							"length": 9
+						}
+					},
+					{
+						"content": "in",
+						"polygon": [
+							978,
+							370,
+							997,
+							370,
+							997,
+							391,
+							977,
+							391
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 147,
+							"length": 2
+						}
+					},
+					{
+						"content": "PAN)",
+						"polygon": [
+							1002,
+							370,
+							1052,
+							371,
+							1051,
+							391,
+							1001,
+							391
+						],
+						"confidence": 0.982,
+						"span": {
+							"offset": 150,
+							"length": 4
+						}
+					},
+					{
+						"content": "Enter",
+						"polygon": [
+							562,
+							417,
+							618,
+							417,
+							618,
+							440,
+							562,
+							440
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 155,
+							"length": 5
+						}
+					},
+					{
+						"content": "Legal",
+						"polygon": [
+							622,
+							417,
+							679,
+							416,
+							680,
+							440,
+							622,
+							440
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 161,
+							"length": 5
+						}
+					},
+					{
+						"content": "Name",
+						"polygon": [
+							684,
+							416,
+							749,
+							416,
+							749,
+							441,
+							684,
+							440
+						],
+						"confidence": 0.988,
+						"span": {
+							"offset": 167,
+							"length": 4
+						}
+					},
+					{
+						"content": "of",
+						"polygon": [
+							754,
+							416,
+							777,
+							416,
+							777,
+							440,
+							754,
+							441
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 172,
+							"length": 2
+						}
+					},
+					{
+						"content": "Business",
+						"polygon": [
+							781,
+							416,
+							877,
+							417,
+							877,
+							440,
+							782,
+							440
+						],
+						"confidence": 0.996,
+						"span": {
+							"offset": 175,
+							"length": 8
+						}
+					},
+					{
+						"content": "Permanent",
+						"polygon": [
+							542,
+							472,
+							656,
+							472,
+							656,
+							494,
+							541,
+							493
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 184,
+							"length": 9
+						}
+					},
+					{
+						"content": "Account",
+						"polygon": [
+							661,
+							472,
+							748,
+							472,
+							747,
+							495,
+							660,
+							494
+						],
+						"confidence": 0.996,
+						"span": {
+							"offset": 194,
+							"length": 7
+						}
+					},
+					{
+						"content": "Number",
+						"polygon": [
+							752,
+							472,
+							840,
+							472,
+							839,
+							496,
+							751,
+							495
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 202,
+							"length": 6
+						}
+					},
+					{
+						"content": "(PAN)",
+						"polygon": [
+							845,
+							472,
+							906,
+							472,
+							905,
+							496,
+							844,
+							496
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 209,
+							"length": 5
+						}
+					},
+					{
+						"content": "*",
+						"polygon": [
+							911,
+							472,
+							923,
+							472,
+							922,
+							496,
+							909,
+							496
+						],
+						"confidence": 0.028,
+						"span": {
+							"offset": 215,
+							"length": 1
+						}
+					},
+					{
+						"content": "Enter",
+						"polygon": [
+							561,
+							521,
+							618,
+							521,
+							617,
+							541,
+							561,
+							541
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 217,
+							"length": 5
+						}
+					},
+					{
+						"content": "Permanent",
+						"polygon": [
+							622,
+							521,
+							740,
+							520,
+							739,
+							543,
+							622,
+							541
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 223,
+							"length": 9
+						}
+					},
+					{
+						"content": "Account",
+						"polygon": [
+							744,
+							520,
+							832,
+							520,
+							832,
+							543,
+							744,
+							543
+						],
+						"confidence": 0.996,
+						"span": {
+							"offset": 233,
+							"length": 7
+						}
+					},
+					{
+						"content": "Number",
+						"polygon": [
+							837,
+							520,
+							925,
+							520,
+							924,
+							544,
+							836,
+							543
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 241,
+							"length": 6
+						}
+					},
+					{
+						"content": "(PAN)",
+						"polygon": [
+							929,
+							520,
+							993,
+							520,
+							992,
+							544,
+							928,
+							544
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 248,
+							"length": 5
+						}
+					},
+					{
+						"content": "Email",
+						"polygon": [
+							542,
+							576,
+							601,
+							576,
+							601,
+							597,
+							542,
+							596
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 254,
+							"length": 5
+						}
+					},
+					{
+						"content": "Address.",
+						"polygon": [
+							605,
+							576,
+							705,
+							575,
+							705,
+							596,
+							605,
+							597
+						],
+						"confidence": 0.394,
+						"span": {
+							"offset": 260,
+							"length": 8
+						}
+					},
+					{
+						"content": "Enter",
+						"polygon": [
+							619,
+							625,
+							677,
+							624,
+							676,
+							646,
+							618,
+							645
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 269,
+							"length": 5
+						}
+					},
+					{
+						"content": "Email",
+						"polygon": [
+							681,
+							624,
+							743,
+							624,
+							743,
+							646,
+							681,
+							646
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 275,
+							"length": 5
+						}
+					},
+					{
+						"content": "Address",
+						"polygon": [
+							747,
+							624,
+							833,
+							624,
+							834,
+							646,
+							747,
+							646
+						],
+						"confidence": 0.996,
+						"span": {
+							"offset": 281,
+							"length": 7
+						}
+					},
+					{
+						"content": "4",
+						"polygon": [
+							543,
+							671,
+							556,
+							671,
+							556,
+							693,
+							542,
+							693
+						],
+						"confidence": 0.009,
+						"span": {
+							"offset": 289,
+							"length": 1
+						}
+					},
+					{
+						"content": "OTP",
+						"polygon": [
+							564,
+							671,
+							607,
+							671,
+							606,
+							693,
+							563,
+							693
+						],
+						"confidence": 0.998,
+						"span": {
+							"offset": 291,
+							"length": 3
+						}
+					},
+					{
+						"content": "will",
+						"polygon": [
+							613,
+							671,
+							651,
+							671,
+							650,
+							693,
+							613,
+							693
+						],
+						"confidence": 0.991,
+						"span": {
+							"offset": 295,
+							"length": 4
+						}
+					},
+					{
+						"content": "be",
+						"polygon": [
+							655,
+							671,
+							682,
+							671,
+							681,
+							693,
+							655,
+							693
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 300,
+							"length": 2
+						}
+					},
+					{
+						"content": "sent",
+						"polygon": [
+							688,
+							671,
+							736,
+							671,
+							736,
+							693,
+							688,
+							693
+						],
+						"confidence": 0.988,
+						"span": {
+							"offset": 303,
+							"length": 4
+						}
+					},
+					{
+						"content": "to",
+						"polygon": [
+							740,
+							671,
+							764,
+							670,
+							764,
+							693,
+							740,
+							693
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 308,
+							"length": 2
+						}
+					},
+					{
+						"content": "this",
+						"polygon": [
+							769,
+							670,
+							810,
+							670,
+							810,
+							694,
+							768,
+							693
+						],
+						"confidence": 0.988,
+						"span": {
+							"offset": 311,
+							"length": 4
+						}
+					},
+					{
+						"content": "Email",
+						"polygon": [
+							815,
+							670,
+							877,
+							670,
+							876,
+							694,
+							815,
+							694
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 316,
+							"length": 5
+						}
+					},
+					{
+						"content": "Address",
+						"polygon": [
+							881,
+							670,
+							966,
+							671,
+							966,
+							694,
+							881,
+							694
+						],
+						"confidence": 0.996,
+						"span": {
+							"offset": 322,
+							"length": 7
+						}
+					},
+					{
+						"content": "Mobile",
+						"polygon": [
+							541,
+							728,
+							608,
+							728,
+							607,
+							755,
+							540,
+							755
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 330,
+							"length": 6
+						}
+					},
+					{
+						"content": "Number",
+						"polygon": [
+							613,
+							728,
+							701,
+							730,
+							701,
+							755,
+							613,
+							755
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 337,
+							"length": 6
+						}
+					},
+					{
+						"content": "+91",
+						"polygon": [
+							563,
+							781,
+							603,
+							781,
+							603,
+							800,
+							563,
+							800
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 344,
+							"length": 3
+						}
+					},
+					{
+						"content": "Enter",
+						"polygon": [
+							641,
+							777,
+							697,
+							777,
+							696,
+							805,
+							640,
+							804
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 348,
+							"length": 5
+						}
+					},
+					{
+						"content": "Mobile",
+						"polygon": [
+							703,
+							777,
+							773,
+							777,
+							773,
+							805,
+							702,
+							805
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 354,
+							"length": 6
+						}
+					},
+					{
+						"content": "Number",
+						"polygon": [
+							779,
+							777,
+							868,
+							777,
+							868,
+							805,
+							778,
+							805
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 361,
+							"length": 6
+						}
+					},
+					{
+						"content": "i",
+						"polygon": [
+							545,
+							829,
+							558,
+							829,
+							558,
+							851,
+							545,
+							851
+						],
+						"confidence": 0.934,
+						"span": {
+							"offset": 368,
+							"length": 1
+						}
+					},
+					{
+						"content": "Separate",
+						"polygon": [
+							564,
+							828,
+							660,
+							827,
+							660,
+							850,
+							564,
+							851
+						],
+						"confidence": 0.996,
+						"span": {
+							"offset": 370,
+							"length": 8
+						}
+					},
+					{
+						"content": "OTP",
+						"polygon": [
+							666,
+							827,
+							709,
+							827,
+							709,
+							850,
+							666,
+							850
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 379,
+							"length": 3
+						}
+					},
+					{
+						"content": "will",
+						"polygon": [
+							715,
+							827,
+							752,
+							827,
+							752,
+							850,
+							715,
+							850
+						],
+						"confidence": 0.991,
+						"span": {
+							"offset": 383,
+							"length": 4
+						}
+					},
+					{
+						"content": "be",
+						"polygon": [
+							756,
+							827,
+							784,
+							827,
+							784,
+							850,
+							756,
+							850
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 388,
+							"length": 2
+						}
+					},
+					{
+						"content": "sent",
+						"polygon": [
+							790,
+							827,
+							837,
+							827,
+							837,
+							850,
+							790,
+							850
+						],
+						"confidence": 0.988,
+						"span": {
+							"offset": 391,
+							"length": 4
+						}
+					},
+					{
+						"content": "to",
+						"polygon": [
+							842,
+							827,
+							865,
+							827,
+							865,
+							850,
+							842,
+							850
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 396,
+							"length": 2
+						}
+					},
+					{
+						"content": "this",
+						"polygon": [
+							870,
+							827,
+							912,
+							827,
+							912,
+							850,
+							870,
+							850
+						],
+						"confidence": 0.988,
+						"span": {
+							"offset": 399,
+							"length": 4
+						}
+					},
+					{
+						"content": "mobile",
+						"polygon": [
+							917,
+							827,
+							989,
+							827,
+							989,
+							849,
+							917,
+							850
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 404,
+							"length": 6
+						}
+					},
+					{
+						"content": "number",
+						"polygon": [
+							994,
+							827,
+							1080,
+							828,
+							1080,
+							849,
+							994,
+							849
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 411,
+							"length": 6
+						}
+					}
+				],
+				"selectionMarks": [
+					{
+						"state": "selected",
+						"polygon": [
+							549,
+							2,
+							581,
+							2,
+							581,
+							31,
+							549,
+							31
+						],
+						"confidence": 0.985,
+						"span": {
+							"offset": 418,
+							"length": 10
+						}
+					},
+					{
+						"state": "unselected",
+						"polygon": [
+							795,
+							2,
+							827,
+							2,
+							827,
+							31,
+							795,
+							31
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 429,
+							"length": 12
+						}
+					},
+					{
+						"state": "selected",
+						"polygon": [
+							1330,
+							313,
+							1346,
+							313,
+							1346,
+							333,
+							1330,
+							333
+						],
+						"confidence": 0.103,
+						"span": {
+							"offset": 442,
+							"length": 10
+						}
+					},
+					{
+						"state": "selected",
+						"polygon": [
+							562,
+							625,
+							584,
+							625,
+							584,
+							645,
+							562,
+							645
+						],
+						"confidence": 0.951,
+						"span": {
+							"offset": 453,
+							"length": 10
+						}
+					}
+				],
+				"lines": [
+					{
+						"content": "New Registration",
+						"polygon": [
+							593,
+							3,
+							775,
+							4,
+							775,
+							26,
+							593,
+							25
+						],
+						"spans": [
+							{
+								"offset": 0,
+								"length": 16
+							}
+						]
+					},
+					{
+						"content": "Temporary Reference Number (TRN)",
+						"polygon": [
+							833,
+							3,
+							1227,
+							3,
+							1227,
+							27,
+							833,
+							27
+						],
+						"spans": [
+							{
+								"offset": 17,
+								"length": 32
+							}
+						]
+					},
+					{
+						"content": "I am a *",
+						"polygon": [
+							540,
+							57,
+							623,
+							58,
+							623,
+							79,
+							540,
+							78
+						],
+						"spans": [
+							{
+								"offset": 50,
+								"length": 8
+							}
+						]
+					},
+					{
+						"content": "Select",
+						"polygon": [
+							566,
+							106,
+							632,
+							105,
+							633,
+							126,
+							566,
+							126
+						],
+						"spans": [
+							{
+								"offset": 59,
+								"length": 6
+							}
+						]
+					},
+					{
+						"content": "V",
+						"polygon": [
+							1331,
+							109,
+							1346,
+							110,
+							1345,
+							121,
+							1331,
+							120
+						],
+						"spans": [
+							{
+								"offset": 66,
+								"length": 1
+							}
+						]
+					},
+					{
+						"content": "State / UT ·",
+						"polygon": [
+							541,
+							160,
+							664,
+							160,
+							664,
+							182,
+							541,
+							183
+						],
+						"spans": [
+							{
+								"offset": 68,
+								"length": 12
+							}
+						]
+					},
+					{
+						"content": "Select",
+						"polygon": [
+							566,
+							209,
+							634,
+							210,
+							633,
+							231,
+							566,
+							230
+						],
+						"spans": [
+							{
+								"offset": 81,
+								"length": 6
+							}
+						]
+					},
+					{
+						"content": "V",
+						"polygon": [
+							1331,
+							213,
+							1346,
+							214,
+							1346,
+							225,
+							1331,
+							224
+						],
+						"spans": [
+							{
+								"offset": 88,
+								"length": 1
+							}
+						]
+					},
+					{
+						"content": "District",
+						"polygon": [
+							542,
+							265,
+							620,
+							266,
+							620,
+							286,
+							542,
+							285
+						],
+						"spans": [
+							{
+								"offset": 90,
+								"length": 8
+							}
+						]
+					},
+					{
+						"content": "Select",
+						"polygon": [
+							568,
+							312,
+							634,
+							313,
+							634,
+							334,
+							567,
+							333
+						],
+						"spans": [
+							{
+								"offset": 99,
+								"length": 6
+							}
+						]
+					},
+					{
+						"content": "Legal Name of the Business (As mentioned in PAN)",
+						"polygon": [
+							541,
+							367,
+							1054,
+							368,
+							1054,
+							392,
+							541,
+							391
+						],
+						"spans": [
+							{
+								"offset": 106,
+								"length": 48
+							}
+						]
+					},
+					{
+						"content": "Enter Legal Name of Business",
+						"polygon": [
+							562,
+							416,
+							879,
+							416,
+							879,
+							440,
+							562,
+							440
+						],
+						"spans": [
+							{
+								"offset": 155,
+								"length": 28
+							}
+						]
+					},
+					{
+						"content": "Permanent Account Number (PAN) *",
+						"polygon": [
+							541,
+							471,
+							922,
+							471,
+							922,
+							496,
+							541,
+							494
+						],
+						"spans": [
+							{
+								"offset": 184,
+								"length": 32
+							}
+						]
+					},
+					{
+						"content": "Enter Permanent Account Number (PAN)",
+						"polygon": [
+							560,
+							519,
+							992,
+							519,
+							992,
+							543,
+							560,
+							542
+						],
+						"spans": [
+							{
+								"offset": 217,
+								"length": 36
+							}
+						]
+					},
+					{
+						"content": "Email Address.",
+						"polygon": [
+							542,
+							575,
+							705,
+							575,
+							705,
+							596,
+							542,
+							596
+						],
+						"spans": [
+							{
+								"offset": 254,
+								"length": 14
+							}
+						]
+					},
+					{
+						"content": "Enter Email Address",
+						"polygon": [
+							617,
+							623,
+							836,
+							623,
+							836,
+							645,
+							617,
+							645
+						],
+						"spans": [
+							{
+								"offset": 269,
+								"length": 19
+							}
+						]
+					},
+					{
+						"content": "4 OTP will be sent to this Email Address",
+						"polygon": [
+							539,
+							670,
+							967,
+							670,
+							967,
+							694,
+							539,
+							693
+						],
+						"spans": [
+							{
+								"offset": 289,
+								"length": 40
+							}
+						]
+					},
+					{
+						"content": "Mobile Number",
+						"polygon": [
+							539,
+							728,
+							701,
+							728,
+							701,
+							755,
+							539,
+							754
+						],
+						"spans": [
+							{
+								"offset": 330,
+								"length": 13
+							}
+						]
+					},
+					{
+						"content": "+91",
+						"polygon": [
+							563,
+							782,
+							606,
+							781,
+							607,
+							800,
+							563,
+							800
+						],
+						"spans": [
+							{
+								"offset": 344,
+								"length": 3
+							}
+						]
+					},
+					{
+						"content": "Enter Mobile Number",
+						"polygon": [
+							640,
+							776,
+							868,
+							776,
+							868,
+							804,
+							640,
+							804
+						],
+						"spans": [
+							{
+								"offset": 348,
+								"length": 19
+							}
+						]
+					},
+					{
+						"content": "i Separate OTP will be sent to this mobile number",
+						"polygon": [
+							543,
+							827,
+							1080,
+							826,
+							1080,
+							849,
+							543,
+							850
+						],
+						"spans": [
+							{
+								"offset": 368,
+								"length": 49
+							}
+						]
+					}
+				],
+				"spans": [
+					{
+						"offset": 0,
+						"length": 463
+					}
+				],
+				"kind": "document"
+			}
+		],
+		"tables": [],
+		"paragraphs": [
+			{
+				"spans": [
+					{
+						"offset": 0,
+						"length": 16
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							593,
+							3,
+							775,
+							4,
+							775,
+							26,
+							593,
+							25
+						]
+					}
+				],
+				"content": "New Registration"
+			},
+			{
+				"spans": [
+					{
+						"offset": 17,
+						"length": 32
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							833,
+							3,
+							1227,
+							3,
+							1227,
+							27,
+							833,
+							27
+						]
+					}
+				],
+				"content": "Temporary Reference Number (TRN)"
+			},
+			{
+				"spans": [
+					{
+						"offset": 50,
+						"length": 15
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							540,
+							57,
+							633,
+							57,
+							633,
+							126,
+							540,
+							126
+						]
+					}
+				],
+				"content": "I am a * Select"
+			},
+			{
+				"spans": [
+					{
+						"offset": 66,
+						"length": 1
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							1331,
+							109,
+							1346,
+							110,
+							1345,
+							121,
+							1330,
+							120
+						]
+					}
+				],
+				"content": "V"
+			},
+			{
+				"spans": [
+					{
+						"offset": 68,
+						"length": 12
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							541,
+							160,
+							664,
+							160,
+							664,
+							183,
+							541,
+							183
+						]
+					}
+				],
+				"content": "State / UT ·"
+			},
+			{
+				"spans": [
+					{
+						"offset": 81,
+						"length": 6
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							566,
+							209,
+							634,
+							210,
+							634,
+							231,
+							566,
+							230
+						]
+					}
+				],
+				"content": "Select"
+			},
+			{
+				"spans": [
+					{
+						"offset": 88,
+						"length": 1
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							1331,
+							213,
+							1347,
+							214,
+							1346,
+							225,
+							1330,
+							224
+						]
+					}
+				],
+				"content": "V"
+			},
+			{
+				"spans": [
+					{
+						"offset": 90,
+						"length": 8
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							542,
+							265,
+							620,
+							266,
+							620,
+							286,
+							542,
+							285
+						]
+					}
+				],
+				"content": "District"
+			},
+			{
+				"spans": [
+					{
+						"offset": 99,
+						"length": 6
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							568,
+							312,
+							634,
+							313,
+							634,
+							334,
+							567,
+							333
+						]
+					}
+				],
+				"content": "Select"
+			},
+			{
+				"spans": [
+					{
+						"offset": 106,
+						"length": 48
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							541,
+							367,
+							1054,
+							368,
+							1054,
+							392,
+							541,
+							391
+						]
+					}
+				],
+				"content": "Legal Name of the Business (As mentioned in PAN)"
+			},
+			{
+				"spans": [
+					{
+						"offset": 155,
+						"length": 28
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							562,
+							416,
+							879,
+							416,
+							879,
+							440,
+							562,
+							440
+						]
+					}
+				],
+				"content": "Enter Legal Name of Business"
+			},
+			{
+				"spans": [
+					{
+						"offset": 184,
+						"length": 32
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							541,
+							471,
+							922,
+							471,
+							922,
+							496,
+							541,
+							496
+						]
+					}
+				],
+				"content": "Permanent Account Number (PAN) *"
+			},
+			{
+				"spans": [
+					{
+						"offset": 217,
+						"length": 36
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							560,
+							519,
+							992,
+							519,
+							992,
+							543,
+							560,
+							543
+						]
+					}
+				],
+				"content": "Enter Permanent Account Number (PAN)"
+			},
+			{
+				"spans": [
+					{
+						"offset": 254,
+						"length": 14
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							542,
+							575,
+							705,
+							575,
+							705,
+							596,
+							542,
+							596
+						]
+					}
+				],
+				"content": "Email Address."
+			},
+			{
+				"spans": [
+					{
+						"offset": 269,
+						"length": 19
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							617,
+							623,
+							836,
+							623,
+							836,
+							645,
+							617,
+							645
+						]
+					}
+				],
+				"content": "Enter Email Address"
+			},
+			{
+				"spans": [
+					{
+						"offset": 289,
+						"length": 40
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							539,
+							670,
+							967,
+							670,
+							967,
+							694,
+							539,
+							694
+						]
+					}
+				],
+				"content": "4 OTP will be sent to this Email Address"
+			},
+			{
+				"spans": [
+					{
+						"offset": 330,
+						"length": 37
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							539,
+							728,
+							868,
+							728,
+							868,
+							804,
+							539,
+							804
+						]
+					}
+				],
+				"content": "Mobile Number +91 Enter Mobile Number"
+			},
+			{
+				"spans": [
+					{
+						"offset": 368,
+						"length": 49
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							543,
+							827,
+							1080,
+							826,
+							1080,
+							849,
+							543,
+							850
+						]
+					}
+				],
+				"content": "i Separate OTP will be sent to this mobile number"
+			}
+		],
+		"keyValuePairs": [
+			{
+				"key": {
+					"content": "New Registration",
+					"boundingRegions": [
+						{
+							"pageNumber": 1,
+							"polygon": [
+								593,
+								3,
+								770,
+								4,
+								770,
+								27,
+								593,
+								26
+							]
+						}
+					],
+					"spans": [
+						{
+							"offset": 0,
+							"length": 16
+						}
+					]
+				},
+				"value": {
+					"content": ":selected:",
+					"boundingRegions": [
+						{
+							"pageNumber": 1,
+							"polygon": [
+								549,
+								2,
+								581,
+								2,
+								581,
+								31,
+								549,
+								31
+							]
+						}
+					],
+					"spans": [
+						{
+							"offset": 418,
+							"length": 10
+						}
+					]
+				},
+				"confidence": 0.921
+			},
+			{
+				"key": {
+					"content": "Temporary Reference Number (TRN)",
+					"boundingRegions": [
+						{
+							"pageNumber": 1,
+							"polygon": [
+								838,
+								3,
+								1227,
+								3,
+								1227,
+								28,
+								838,
+								28
+							]
+						}
+					],
+					"spans": [
+						{
+							"offset": 17,
+							"length": 32
+						}
+					]
+				},
+				"value": {
+					"content": ":unselected:",
+					"boundingRegions": [
+						{
+							"pageNumber": 1,
+							"polygon": [
+								795,
+								2,
+								827,
+								2,
+								827,
+								31,
+								795,
+								31
+							]
+						}
+					],
+					"spans": [
+						{
+							"offset": 429,
+							"length": 12
+						}
+					]
+				},
+				"confidence": 0.891
+			},
+			{
+				"key": {
+					"content": "Legal Name of the Business (As mentioned in PAN)",
+					"boundingRegions": [
+						{
+							"pageNumber": 1,
+							"polygon": [
+								542,
+								368,
+								1052,
+								368,
+								1052,
+								392,
+								542,
+								392
+							]
+						}
+					],
+					"spans": [
+						{
+							"offset": 106,
+							"length": 48
+						}
+					]
+				},
+				"confidence": 0
+			},
+			{
+				"key": {
+					"content": "Legal Name\nBusiness",
+					"boundingRegions": [
+						{
+							"pageNumber": 1,
+							"polygon": [
+								622,
+								415,
+								877,
+								417,
+								877,
+								442,
+								622,
+								440
+							]
+						}
+					],
+					"spans": [
+						{
+							"offset": 161,
+							"length": 10
+						},
+						{
+							"offset": 175,
+							"length": 8
+						}
+					]
+				},
+				"confidence": 0.153
+			},
+			{
+				"key": {
+					"content": "Enter Email Address",
+					"boundingRegions": [
+						{
+							"pageNumber": 1,
+							"polygon": [
+								618,
+								624,
+								834,
+								624,
+								834,
+								646,
+								618,
+								646
+							]
+						}
+					],
+					"spans": [
+						{
+							"offset": 269,
+							"length": 19
+						}
+					]
+				},
+				"value": {
+					"content": ":selected:",
+					"boundingRegions": [
+						{
+							"pageNumber": 1,
+							"polygon": [
+								562,
+								625,
+								584,
+								625,
+								584,
+								645,
+								562,
+								645
+							]
+						}
+					],
+					"spans": [
+						{
+							"offset": 453,
+							"length": 10
+						}
+					]
+				},
+				"confidence": 0.907
+			},
+			{
+				"key": {
+					"content": "Mobile",
+					"boundingRegions": [
+						{
+							"pageNumber": 1,
+							"polygon": [
+								541,
+								728,
+								608,
+								728,
+								607,
+								755,
+								540,
+								755
+							]
+						}
+					],
+					"spans": [
+						{
+							"offset": 330,
+							"length": 6
+						}
+					]
+				},
+				"confidence": 0.25
+			}
+		],
+		"entities": [],
+		"styles": [
+			{
+				"confidence": 0.95,
+				"spans": [
+					{
+						"offset": 66,
+						"length": 1
+					},
+					{
+						"offset": 88,
+						"length": 1
+					}
+				],
+				"isHandwritten": true
+			}
+		]
+	}
+}

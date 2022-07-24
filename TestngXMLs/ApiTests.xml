@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="BugSquasher Basic Tests" parallel="tests">
+	<parameter name="browser" value="api" />
+	<test verbose="2" preserve-order="true" name="Smoke Test - API">
+		<classes>
+			<class name="com.api.tests.ZippoTest"></class>
+		</classes>
+	</test>
+</suite>
