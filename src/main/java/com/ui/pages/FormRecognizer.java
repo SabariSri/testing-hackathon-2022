@@ -70,17 +70,17 @@ public class FormRecognizer extends AbstractPage {
 			Thread.sleep(4000);
 			clickOnWithoutLogs(generalDoc, "General Documents Option");
 			CommonUtility.switchToNewTab(getDriver());
-			setText(usernameField, USERNAME, "Username field");
+			setTextWithoutLogs(usernameField, USERNAME, "Username field");
 			clickOnWithoutLogs(nextBtn, "Next Button");
 			CommonUtility.switchToNewTab(getDriver());
-			setText(pwdField, PASSWORD, "Password field");
+			setTextWithoutLogs(pwdField, PASSWORD, "Password field");
 			clickOnWithoutLogs(nextBtn, "Sign in Button");
 			CommonUtility.switchToNewTab(getDriver());
 			clickOnWithoutLogs(nextBtn, "Stay signed in - Yes button");
 			CommonUtility.switchToNewTab(getDriver());
 			clickOnWithoutLogs(apiRadioBtn, "API radio button");
-			setText(apiEndPointField, END_POINT, "API endpoint field");
-			setText(apiKeyField, ACCESS_KEY, "API key field");
+			setTextWithoutLogs(apiEndPointField, END_POINT, "API endpoint field");
+			setTextWithoutLogs(apiKeyField, ACCESS_KEY, "API key field");
 			clickOnWithoutLogs(acceptCheckBox, "API accept checkbox");
 			clickOnWithoutLogs(apiContinueBtn, "API continue button");
 			Thread.sleep(2000);
@@ -114,6 +114,7 @@ public class FormRecognizer extends AbstractPage {
 			clickOnWithoutLogs(downloadBtn, "Download Button");
 			Thread.sleep(3000);
 			jsonFile = moveDownloadedJson();
+			reporter().stepPass("Analyzed the sceenshot & fetched as Json at " + jsonFile);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

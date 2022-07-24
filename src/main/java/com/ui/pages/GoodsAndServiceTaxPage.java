@@ -27,6 +27,7 @@ public class GoodsAndServiceTaxPage extends AbstractPage {
 			TakesScreenshot screenshot = ((TakesScreenshot) getDriver());
 			File file = screenshot.getScreenshotAs(OutputType.FILE);
 			FileUtils.copyFile(file, new File(screenshotPath));
+			reporter().stepPass("Taken the screenshot & stored at: " + screenshotPath);
 		} catch (Exception e) {
 			e.printStackTrace();
 			System.out.println("Unable to take screenshot:: " + e);

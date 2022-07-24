@@ -1,14 +1,9 @@
 package com.ui.tests.web;
 
-import java.io.File;
-import java.io.FileReader;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Map;
 
-import org.json.JSONArray;
-import org.json.JSONObject;
-import org.json.simple.parser.JSONParser;
 import org.testng.annotations.Test;
 
 import com.basetest.AbstractTest;
@@ -26,6 +21,7 @@ public class FormValidation extends AbstractTest {
 	}
 
 	public static void compareFormJson(String jsonFile, ArrayList<String> expectedJsonValue) {
+		reporter().stepInfo("Comparing the Json with the expected Keys");
 		try {
 			ObjectMapper mapper = new ObjectMapper();
 			Map<?, ?> map = mapper.readValue(Paths.get(jsonFile).toFile(), Map.class);
@@ -36,7 +32,6 @@ public class FormValidation extends AbstractTest {
 					}
 				}
 			}
-
 		} catch (Exception ex) {
 			ex.printStackTrace();
 		}

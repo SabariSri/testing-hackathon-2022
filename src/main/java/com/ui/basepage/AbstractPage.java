@@ -37,7 +37,17 @@ public abstract class AbstractPage extends AbstractSetup {
 		}
 	}
 
-	public void setText(WebElement element, String value, String refKey) {
+	public void setTextWithoutLogs(WebElement element, String value, String refKey) {
+		try {
+			element.sendKeys(value);
+			Thread.sleep(1000);
+		} catch (Exception e) {
+			reporter().stepFail("Unable to type " + value + " in " + refKey + "\n" + "ERROR MESSAGE " + e.toString());
+		}
+	}
+	
+
+	public void setText2(WebElement element, String value, String refKey) {
 		try {
 			element.sendKeys(value);
 			Thread.sleep(1000);
